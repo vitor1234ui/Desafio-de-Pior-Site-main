@@ -1,140 +1,168 @@
-# 🎨 Desafio: Pior UX Possível
+# 🪨🌱 Venda de Pedras e Hortaliças
 
-## 👥 Sobre o Projeto
+**Uma plataforma web para divulgação, organização e comercialização de pedras e hortaliças.**
 
-Este projeto foi desenvolvido para a atividade prática de UI e UX.
+---
 
-A proposta é criar uma interface propositalmente ruim, confusa e irritante, mas que continue funcional e permita que o usuário chegue até a tela final.
+## 📌 Sobre o Projeto
 
-O fluxo escolhido foi um cadastro simples dividido em duas etapas.
+O **Venda de Pedras e Hortaliças** é um projeto de desenvolvimento web criado com o objetivo de apresentar e facilitar a comercialização de diferentes produtos, reunindo em um único ambiente informações sobre pedras e hortaliças.
 
-Ao final, o usuário encontra a mensagem:
+A plataforma busca oferecer uma experiência simples, intuitiva e organizada, permitindo que os visitantes conheçam os produtos disponíveis, visualizem suas características, consultem preços e encontrem informações importantes para entrar em contato com os responsáveis pelas vendas.
 
-> Parabéns, você chegou ao final da pior experiência de usuário!
+O sistema foi pensado para funcionar como uma vitrine digital, aproximando vendedores e consumidores por meio de uma interface acessível e de fácil utilização.
 
-## 🎯 Objetivo
+Além de sua finalidade comercial, o projeto também representa uma oportunidade de aplicar conhecimentos de programação, desenvolvimento web, organização de informações, estruturação de páginas e criação de interfaces.
 
-Demonstrar, na prática, como decisões ruins de interface e experiência podem dificultar uma tarefa simples.
+## 🎯 Objetivo Geral
 
-O projeto foi inspirado na ideia de interfaces caóticas como o conceito do User Inyerface.
+Desenvolver uma aplicação web que permita divulgar e apresentar pedras e hortaliças, oferecendo aos visitantes uma maneira prática de conhecer os produtos, consultar informações e demonstrar interesse em realizar uma compra.
 
-## 😈 Princípios e Heurísticas Violados
+## 🎯 Objetivos Específicos
 
-### 1. Botões com funções pouco claras
+- Criar uma interface organizada e intuitiva.
+- Apresentar os produtos disponíveis para comercialização.
+- Disponibilizar informações e características dos produtos.
+- Exibir imagens para facilitar a identificação dos itens.
+- Apresentar preços e condições de comercialização.
+- Facilitar a comunicação entre clientes e vendedores.
+- Melhorar a divulgação dos produtos por meio de uma plataforma digital.
+- Aplicar conceitos de desenvolvimento web e programação.
+- Desenvolver uma estrutura que permita futuras melhorias e novas funcionalidades.
 
-O botão verde possui o texto "CANCELAR", enquanto o botão que realmente permite continuar é cinza e pouco chamativo.
+## ⚙️ Funcionalidades do Sistema
 
-**Problema:** o usuário pode interpretar as ações de forma errada.
+O projeto tem como proposta oferecer as seguintes funcionalidades:
 
-**Princípio violado:** consistência, clareza e correspondência entre o sistema e o mundo real.
+### 🏠 Página Inicial
+- Apresentação da plataforma.
+- Identificação do objetivo do site.
+- Navegação entre as principais seções.
+- Destaque para os produtos comercializados.
 
-**Como corrigir:** utilizar textos objetivos, como "Continuar" e "Cancelar", mantendo aparência e posição coerentes.
+### 🪨 Seção de Pedras
+- Apresentação dos tipos de pedras disponíveis.
+- Exibição de imagens dos produtos.
+- Informações sobre características e utilização.
+- Consulta de preços, quando disponíveis.
 
-### 2. Baixo contraste
+### 🌱 Seção de Hortaliças
+- Divulgação das hortaliças disponíveis.
+- Apresentação dos produtos por categorias.
+- Exibição de imagens e informações.
+- Consulta de preços e unidades de comercialização.
 
-Alguns textos aparecem em cinza claro sobre fundo claro.
+### 🛒 Área de Produtos
+- Organização dos produtos.
+- Apresentação de informações individuais.
+- Facilidade para visualizar os itens disponíveis.
 
-**Problema:** dificulta a leitura, principalmente para pessoas com baixa visão.
+### 📞 Contato
+- Espaço destinado à comunicação com os vendedores.
+- Informações para facilitar o atendimento aos interessados.
 
-**Princípio violado:** critérios de acessibilidade e contraste da WCAG.
+*Observação: as funcionalidades descritas representam a proposta do projeto. A disponibilidade efetiva de cada recurso depende da implementação no código.*
 
-**Como corrigir:** utilizar contraste adequado entre texto e fundo.
+## 💻 Tecnologias Utilizadas
 
-### 3. Mensagens de erro confusas
+As tecnologias utilizadas no desenvolvimento podem incluir:
 
-As mensagens utilizam textos como "Erro 404: seus dados foram encontrados, mas estão ausentes."
+| Tecnologia | Finalidade |
+|---|---|
+| HTML5 | Estruturação das páginas |
+| CSS3 | Estilização e aparência visual |
+| JavaScript | Interatividade e funcionalidades |
+| Python | Desenvolvimento da lógica do sistema, caso utilizado |
+| Git | Controle de versões |
+| GitHub | Hospedagem e gerenciamento do código-fonte |
 
-**Problema:** a mensagem não explica claramente o que o usuário precisa fazer.
+## 🏗️ Estrutura do Projeto
 
-**Princípio violado:** visibilidade do status do sistema e linguagem clara.
+O projeto pode ser organizado em diretórios para facilitar a manutenção e o desenvolvimento:
 
-**Como corrigir:** informar exatamente o problema e como solucioná-lo.
+```text
+Desafio-de-Pior-Site-main/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── imagens/
+│   ├── pedras/
+│   └── hortaliças/
+│
+├── pages/
+│   ├── pedras.html
+│   ├── hortaliças.html
+│   └── contato.html
+│
+└── README.md
+```
 
-### 4. Validação de senha contraditória
+*A estrutura acima é uma sugestão de organização e deve ser ajustada conforme os arquivos existentes no repositório.*
 
-A interface informa regras difíceis de entender, incluindo uma regra contraditória sobre números.
+## 🚀 Como Executar o Projeto
 
-**Problema:** o usuário não sabe qual regra realmente deve seguir.
+Para visualizar o projeto em seu computador, siga as etapas:
 
-**Princípio violado:** prevenção de erros e consistência.
+**1. Clone o repositório:**
 
-**Como corrigir:** apresentar regras simples, coerentes e atualizadas enquanto o usuário digita.
+```bash
+git clone https://github.com/vitor1234ui/Desafio-de-Pior-Site-main.git
+```
 
-### 5. Botão com texto enganoso
+**2. Entre na pasta do projeto:**
 
-Na segunda tela existe o botão "FINALIZAR CANCELAMENTO", embora sua função seja finalizar o cadastro.
+```bash
+cd Desafio-de-Pior-Site-main
+```
 
-**Problema:** o usuário não sabe qual ação será realizada.
+**3. Abra o projeto:**
 
-**Como corrigir:** usar um texto direto como "Finalizar cadastro".
+Localize o arquivo `index.html` e abra-o em um navegador.
 
-### 6. Ajuda inútil
+Caso o projeto utilize um servidor ou outras dependências, siga as instruções específicas de execução correspondentes à implementação.
 
-A interface apresenta uma área dizendo que existe ajuda, mas informa que não existe ajuda.
+## 📚 Aprendizados e Conhecimentos Aplicados
 
-**Problema:** aumenta a frustração e não auxilia o usuário.
+Durante o desenvolvimento deste projeto, são trabalhados conceitos importantes da área de desenvolvimento de sistemas:
 
-**Como corrigir:** disponibilizar instruções ou suporte realmente úteis.
+- Estruturação de páginas utilizando HTML.
+- Estilização e organização visual com CSS.
+- Implementação de interatividade com JavaScript.
+- Organização de arquivos e diretórios.
+- Desenvolvimento de interfaces para usuários.
+- Utilização do Git para controle de versões.
+- Gerenciamento de projetos por meio do GitHub.
+- Resolução de problemas durante o desenvolvimento.
 
-### 7. Informações de progresso confusas
+## 🔮 Melhorias Futuras
 
-A primeira tela informa "PASSO 1 DE 3 — ou talvez 2 de 4".
+O projeto poderá receber novas funcionalidades para ampliar suas possibilidades de utilização:
 
-**Problema:** o usuário não consegue saber com segurança em que etapa está.
+- Sistema de cadastro de produtos.
+- Pesquisa e filtragem de produtos.
+- Carrinho de compras.
+- Sistema de pedidos.
+- Cadastro e gerenciamento de clientes.
+- Área administrativa para vendedores.
+- Integração com banco de dados.
+- Atualização de estoque.
+- Integração com WhatsApp para atendimento.
+- Layout responsivo para celulares, tablets e computadores.
 
-**Princípio violado:** visibilidade do status do sistema.
+## 👨‍💻 Desenvolvedor
 
-**Como corrigir:** apresentar um indicador correto, como "Etapa 1 de 2".
+**Vitor Almeida Silva**
 
-## ✅ Proposta de Correção / Versão Ideal
+Projeto desenvolvido com finalidade educacional, visando colocar em prática conhecimentos de programação e desenvolvimento web.
 
-Em uma versão profissional:
+## 📄 Licença
 
-- Os botões teriam nomes claros.
-- As cores indicariam corretamente as ações.
-- O contraste seria adequado.
-- As mensagens de erro explicariam como resolver o problema.
-- As regras da senha seriam simples e não contraditórias.
-- O progresso mostraria corretamente a etapa atual.
-- Os textos seriam objetivos.
-- A interface teria acessibilidade adequada.
-- A ajuda realmente ajudaria o usuário.
+Este projeto possui finalidade educacional. A utilização, distribuição e modificação do código devem respeitar as condições definidas pelo responsável pelo repositório.
 
-## ▶️ Como Executar
+---
 
-### Opção 1 — Abrir localmente
+⭐ **Obrigado por visitar o projeto Venda de Pedras e Hortaliças!**
 
-1. Baixe ou clone o repositório.
-2. Abra a pasta do projeto.
-3. Abra o arquivo `index.html` no navegador.
-
-Não é necessário instalar bibliotecas ou configurar servidor.
-
-### Opção 2 — GitHub Pages
-
-1. Envie os arquivos para um repositório público no GitHub.
-2. Acesse **Settings > Pages**.
-3. Em **Build and deployment**, selecione:
-   - Source: Deploy from a branch
-   - Branch: `main`
-   - Folder: `/ (root)`
-4. Salve.
-5. Aguarde o GitHub publicar o site.
-6. Acesse o link gerado.
-
-## 🧪 Playtest
-
-O projeto deve ser testado por integrantes do grupo e, se possível, por outra equipe.
-
-O objetivo do teste é verificar se:
-
-- O usuário percebe as pegadinhas.
-- O usuário consegue completar o cadastro.
-- O site não apresenta erros que impeçam a conclusão.
-- A tela final pode ser alcançada.
-
-## 📌 Conclusão
-
-A atividade demonstra que UI e UX não são apenas estética.
-
-Uma interface pode funcionar tecnicamente e ainda proporcionar uma experiência ruim. Os problemas criados neste projeto mostram a importância de clareza, consistência, acessibilidade, prevenção de erros e feedback adequado.
+Contribuições, sugestões e melhorias são sempre bem-vindas.
